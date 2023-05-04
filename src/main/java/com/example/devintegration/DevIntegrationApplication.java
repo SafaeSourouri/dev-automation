@@ -10,7 +10,6 @@ public class DevIntegrationApplication {
 		SpringApplication.run(DevIntegrationApplication.class, args);
 		System.out.println("Devops ");
 		System.out.println("Integration ");
-		System.out.println("Pipeline ");
 
 	}
 

@@ -5,5 +5,5 @@
 
 FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java" , "-jar" ,"/app.jar"]
+COPY ${JAR_FILE} dev-integration.jar
+ENTRYPOINT ["java" , "-jar" ,"/dev-integration.jar"]
