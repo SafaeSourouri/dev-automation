@@ -18,7 +18,7 @@
 
 
 			<repository>
-				<id> app-java</id>
+				<id>nexus</id>
 				<url>http://192.168.43.221:8081/nexus/repository</url>
 			</repository>
 	</distributionManagement>
