@@ -11,7 +11,7 @@ public class DevIntegrationApplication {
 		System.out.println("Pull -> git ");
 		System.out.println("Build -> maven");
 		System.out.println(" Test -> junit ");
-		System.out.println(" NExus");
+		System.out.println(" publish -> nexus");
 
 
 
