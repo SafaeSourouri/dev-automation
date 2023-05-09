@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>my-repo-id</id>
+            <username>admin</username>
+            <password>admin</password>
+        </server>
+    </servers>
+</settings>

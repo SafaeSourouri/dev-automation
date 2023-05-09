@@ -16,13 +16,10 @@
 
 	<distributionManagement>
 
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://192.168.43.221:8081/nexus/content/repository/maven-releases/</url>
-		</snapshotRepository>
+
 			<repository>
-				<id> nexus</id>
-				<url>http://192.168.43.221:8081/nexus/content/repository/maven-snapshots/</url>
+				<id> app-java</id>
+				<url>http://192.168.43.221:8081/nexus/repository/app-java/</url>
 			</repository>
 	</distributionManagement>
 
