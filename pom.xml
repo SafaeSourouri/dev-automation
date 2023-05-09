@@ -14,7 +14,7 @@
 	<packaging>jar</packaging>
 
 
-	<distributionManagement>
+<!--	<distributionManagement>
 
 		<snapshotRepository>
 			<id>nexus</id>
@@ -24,7 +24,7 @@
 				<id> nexus</id>
 				<url>http://192.168.43.221:8081/nexus/content/repositories/snapshots/</url>
 			</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 
 	<name>dev-integration</name>
