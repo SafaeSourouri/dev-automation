@@ -10,7 +10,7 @@ public class DevIntegrationApplication {
 		SpringApplication.run(DevIntegrationApplication.class, args);
 		System.out.println("Pull --> git ");
 		System.out.println("Build --> maven");
-		System.out.println(" Test --> junit ");
+		System.out.println(" Test --> maven + junit ");
 		System.out.println(" publish -> nexus");
 
 
