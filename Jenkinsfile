@@ -54,7 +54,7 @@ pipeline{
                             groupId: pom.groupId,
                             version: pom.version,
                             repository: "java-app",
-                            credentialsId: "nexus-password",
+                            credentialsId: "NEXUS_CRED",
                             artifacts: [
                                 [artifactId: pom.artifactId,
                                 classifier: '',
