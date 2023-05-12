@@ -34,4 +34,12 @@
         <!--make the profile active all the time -->
         <activeProfile>nexus</activeProfile>
     </activeProfiles>
+    <servers>
+        <server>
+            <id>app-java</id>
+            <username>admin</username>
+            <password>admin</password>
+        </server>
+
+    </servers>
 </settings>
