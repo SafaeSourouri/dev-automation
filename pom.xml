@@ -13,13 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-
-<!--	<distributionManagement>
+	<distributionManagement>
 			<repository>
 				<id>nexus</id>
 				<url>http://192.168.43.221:8081/nexus/repository/app-java/</url>
 			</repository>
-	</distributionManagement> -->
+	</distributionManagement>
 
 	<name>dev-integration</name>
 	<description>Demo project for Spring Boot</description>
