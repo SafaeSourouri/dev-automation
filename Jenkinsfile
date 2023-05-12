@@ -53,7 +53,7 @@ pipeline{
                             nexusUrl: "192.168.43.221:8081",
                             groupId: pom.groupId,
                             version: pom.version,
-                            repository: "java-app",
+                            repository: "java-app/",
                             credentialsId: "NEXUS_CRED",
                             artifacts: [
                                 [artifactId: pom.artifactId,
