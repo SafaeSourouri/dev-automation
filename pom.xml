@@ -16,7 +16,7 @@
 	<distributionManagement>
 			<repository>
 				<id>nexus</id>
-				<url>http://192.168.43.221:8081/repository/app-java/</url>
+				<url>http://192.168.43.221:8081/repository/java-app/</url>
 			</repository>
 	</distributionManagement>
 

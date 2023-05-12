@@ -36,7 +36,7 @@
     </activeProfiles>
     <servers>
         <server>
-            <id>app-java</id>
+            <id>java-app</id>
             <username>admin</username>
             <password>admin</password>
         </server>
