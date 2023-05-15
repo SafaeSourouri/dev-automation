@@ -14,16 +14,16 @@
             <!--all requests to nexus via the mirror -->
             <repositories>
                 <repository>
-                    <id>central</id>
-                    <url>http://central</url>
+                    <id>app-java</id>
+                    <url>http://192.168.43.221:8081/repository/app-java/</url>
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
                 </repository>
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
-                    <id>central</id>
-                    <url>http://central</url>
+                    <id>app-java</id>
+                    <url>http://192.168.43.221:8081/repository/app-java/</url>
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
                 </pluginRepository>
@@ -36,7 +36,7 @@
     </activeProfiles>
     <servers>
         <server>
-            <id>java-app</id>
+            <id>app-java</id>
             <username>admin</username>
             <password>admin</password>
         </server>
