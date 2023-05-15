@@ -34,7 +34,7 @@ pipeline{
                 echo "********************* Package ***************************"
                 sh 'mvn package'
             }
-        }
+        }$ù
 
       stage("Publish to Nexus Repository Manager") {
             steps {
