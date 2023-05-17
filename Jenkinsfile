@@ -50,7 +50,7 @@ pipeline{
                         nexusArtifactUploader(
                             nexusVersion: "nexus3",
                             protocol: "http",
-                            nexusUrl: "192.168.43.221:8081",
+                            nexusUrl: "172.17.0.6:8081",
                             groupId: pom.groupId,
                             version: pom.version,
                             repository: "app-java/",
