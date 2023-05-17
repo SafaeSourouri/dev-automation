@@ -73,7 +73,11 @@ pipeline{
             }
         }
 
-
+            stage ('upload') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
+            }
+        }
 
     }
 }
