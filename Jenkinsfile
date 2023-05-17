@@ -36,7 +36,7 @@ pipeline{
             }
         }$ù
 
-      stage("Publish to Nexus Repository Manager") {
+      stage('Publish to Nexus Repository Manager') {
             steps {
                 echo "********************* Publish ***************************"
                 script {
@@ -73,7 +73,8 @@ pipeline{
             }
         }
 
-            stage ('upload') {
+            stage ('upload: to nexus') {
+            echo "********************* Upload ***************************"
             steps {
                 archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
             }
